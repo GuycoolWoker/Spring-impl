@@ -1,0 +1,63 @@
+package com.guy.test.circular_references;
+
+import com.guy.spring.anno.Autowired;
+import com.guy.spring.anno.Component;
+import com.guy.spring.anno.Lazy;
+import com.guy.spring.anno.Scope;
+import com.guy.spring.interfaces.DisposableBean;
+import com.guy.spring.interfaces.InitializingBean;
+import com.guy.spring.interfaces.ObjectFactory;
+
+/**
+ * @author Guy
+ * @date 2022/7/23 16:27
+ */
+// @Scope("prototype")
+@Component
+public class A implements MyInterface, InitializingBean, DisposableBean {
+
+    /**
+     * 采用 jdk 动态代理，注入的类型需要是接口类型
+     */
+    // @Autowired
+    private MyInterface b;
+
+    private ObjectFactory<MyInterface> bObj;
+
+    // public A(@Lazy MyInterface b) {
+    // // public A(ObjectFactory<MyInterface> b) {
+    //     this.b = b;
+    //     // this.bObj = b;
+    //     System.out.println("A 创建，构造注入的 b 为：" + b.getClass());
+    // }
+
+
+    public A() {
+        System.out.println("A 创建");
+    }
+
+    @Override
+    public void afterPropertiesSet() {
+        System.out.println("A 初始化");
+    }
+
+
+    @Override
+    public void foo() {
+        System.out.println("【【【【【【【【【【【【【【【【【A.foo start】......." + this.b.getClass());
+        this.b.foo();
+        // this.bObj.getObject().foo();
+        System.out.println("【【【【【【【【【【【【【【【【【A.foo end】");
+    }
+
+    @Autowired
+    public void setB(MyInterface b) {
+        System.out.println("A 😋😋😋😋 依赖注入 setB(" + b.getClass().getName() + ")");
+        this.b = b;
+    }
+
+    @Override
+    public void destroy() throws Exception {
+        System.out.println("A destroy...");
+    }
+}
