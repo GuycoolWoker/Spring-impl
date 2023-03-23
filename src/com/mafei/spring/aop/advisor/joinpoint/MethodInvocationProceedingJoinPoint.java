@@ -3,7 +3,7 @@ package com.mafei.spring.aop.advisor.joinpoint;
 import com.mafei.spring.aop.advisor.MethodInvocation;
 
 /**
- * @author mafei007
+ * @author Guy
  * @date 2022/7/8 22:58
  */
 public class MethodInvocationProceedingJoinPoint implements ProceedingJoinPoint {

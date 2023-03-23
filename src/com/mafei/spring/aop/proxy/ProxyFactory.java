@@ -10,7 +10,7 @@ import java.util.List;
  * 实际上就是个 ProxyConfig，每个代理对象都持有一个 ProxyFactory
  * 一个 ProxyFactory 只能生产一个代理对象
  *
- * @author mafei007
+ * @author Guy
  * @date 2022/7/8 00:41
  */
 public class ProxyFactory {

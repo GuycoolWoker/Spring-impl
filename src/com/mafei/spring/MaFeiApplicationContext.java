@@ -26,7 +26,7 @@ import java.util.stream.Collectors;
  * 初始化
  * BeanPostProcessor
  *
- * @author mafei007
+ * @author Guy
  * @date 2022/6/29 19:28
  */
 public class MaFeiApplicationContext {
@@ -94,7 +94,7 @@ public class MaFeiApplicationContext {
             path = path.replace(".", "/");
 
             ClassLoader classLoader = Thread.currentThread().getContextClassLoader();
-            // 取得绝对路径: /Users/mafei007/AppProjects/IdeaProjects/spring_study/out/production/simple_impl/com/mafei/test
+            // 取得绝对路径: /Users/Guy/AppProjects/IdeaProjects/spring_study/out/production/simple_impl/com/mafei/test
             URL resource = classLoader.getResource(path);
             File file = new File(resource.getFile());
 

@@ -3,7 +3,7 @@ package com.mafei.spring.aop;
 /**
  * 提供调用切面方法的类
  * 每次返回新的切面对象
- * @author mafei007
+ * @author Guy
  * @date 2022/7/8 00:04
  */
 public class PrototypeAspectInstanceFactory implements AspectInstanceFactory{

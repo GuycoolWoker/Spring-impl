@@ -5,7 +5,7 @@ package com.mafei.spring.aop.advisor.joinpoint;
  * <p>
  * 注意对比 com.mafei.spring.aop.advisor.Joinpoint，这个是切入点方法执行的顶级接口
  *
- * @author mafei007
+ * @author Guy
  * @date 2022/7/8 22:44
  */
 public interface JoinPoint {

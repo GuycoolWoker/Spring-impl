@@ -7,7 +7,7 @@ import com.mafei.spring.interfaces.BeanNameAware;
 import com.mafei.spring.interfaces.InitializingBean;
 
 /**
- * @author mafei007
+ * @author Guy
  * @date 2022/6/29 19:31
  */
 @Component("userService")

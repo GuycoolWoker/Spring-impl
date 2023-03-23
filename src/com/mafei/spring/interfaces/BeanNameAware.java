@@ -5,7 +5,7 @@ package com.mafei.spring.interfaces;
  * 某个bean 实现了这个接口，就能得到它的 beanName
  * 由 Spring 调用
  *
- * @author mafei007
+ * @author Guy
  * @date 2022/6/29 23:10
  */
 public interface BeanNameAware {

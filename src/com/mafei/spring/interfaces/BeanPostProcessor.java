@@ -7,7 +7,7 @@ package com.mafei.spring.interfaces;
  * <p></p>
  * AOP 就是在这里进行
  * AOP ： 返回一个代理对象
- * @author mafei007
+ * @author Guy
  * @date 2022/6/29 23:23
  */
 public interface BeanPostProcessor {

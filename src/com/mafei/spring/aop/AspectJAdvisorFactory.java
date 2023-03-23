@@ -6,7 +6,7 @@ import java.util.List;
 
 /**
  * 解析 @Aspect 切面类中的所有切面
- * @author mafei007
+ * @author Guy
  * @date 2022/7/7 21:32
  */
 public interface AspectJAdvisorFactory {

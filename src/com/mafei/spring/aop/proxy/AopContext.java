@@ -3,7 +3,7 @@ package com.mafei.spring.aop.proxy;
 /**
  * 获取当前正在运行的 AOP 代理对象
  *
- * @author mafei007
+ * @author Guy
  * @date 2022/7/24 23:39
  */
 public final class AopContext {

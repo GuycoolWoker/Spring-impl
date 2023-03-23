@@ -20,7 +20,7 @@ import java.util.Set;
 /**
  * bean 后处理器，对符合条件的 bean 进行 aop 代理增强，创建代理对象
  *
- * @author mafei007
+ * @author Guy
  * @date 2022/7/7 20:23
  */
 public class AnnotationAwareAspectJAutoProxyCreator implements SmartInstantiationAwareBeanPostProcessor, ApplicationContextAware {

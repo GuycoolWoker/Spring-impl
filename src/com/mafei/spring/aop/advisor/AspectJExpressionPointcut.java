@@ -7,7 +7,7 @@ import java.lang.reflect.Method;
 
 /**
  * 既是 Pointcut，又是 MethodMatcher
- * @author mafei007
+ * @author Guy
  * @date 2022/7/7 22:14
  */
 public class AspectJExpressionPointcut implements Pointcut, MethodMatcher {

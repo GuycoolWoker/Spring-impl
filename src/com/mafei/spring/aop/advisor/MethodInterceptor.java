@@ -2,7 +2,7 @@ package com.mafei.spring.aop.advisor;
 
 /**
  * 环绕通知
- * @author mafei007
+ * @author Guy
  * @date 2022/7/7 22:45
  */
 public interface MethodInterceptor extends Interceptor {

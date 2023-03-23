@@ -10,7 +10,7 @@ import java.lang.reflect.Proxy;
 import java.util.List;
 
 /**
- * @author mafei007
+ * @author Guy
  * @date 2022/7/8 01:16
  */
 public class JdkDynamicAopProxy implements AopProxy, InvocationHandler {

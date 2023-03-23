@@ -3,7 +3,7 @@ package com.mafei.test;
 import com.mafei.spring.anno.Component;
 
 /**
- * @author mafei007
+ * @author Guy
  * @date 2022/7/8 03:50
  */
 @Component

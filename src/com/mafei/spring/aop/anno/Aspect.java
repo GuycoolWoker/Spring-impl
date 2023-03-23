@@ -7,7 +7,7 @@ import java.lang.annotation.Target;
 
 /**
  * 指定一个类为切面类
- * @author mafei007
+ * @author Guy
  * @date 2022/7/7 20:13
  */
 @Target(ElementType.TYPE)

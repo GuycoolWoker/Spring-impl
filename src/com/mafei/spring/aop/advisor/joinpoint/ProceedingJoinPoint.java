@@ -3,7 +3,7 @@ package com.mafei.spring.aop.advisor.joinpoint;
 /**
  * 就是一个 MethodInvocation，
  * Spring 的实现 MethodInvocationProceedingJoinPoint 中就是内置了一个 MethodInvocation
- * @author mafei007
+ * @author Guy
  * @date 2022/7/8 22:48
  */
 public interface ProceedingJoinPoint extends JoinPoint {

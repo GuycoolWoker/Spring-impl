@@ -9,7 +9,7 @@ import com.mafei.spring.interfaces.InitializingBean;
 import com.mafei.spring.interfaces.ObjectFactory;
 
 /**
- * @author mafei007
+ * @author Guy
  * @date 2022/7/23 16:27
  */
 // @Scope("prototype")

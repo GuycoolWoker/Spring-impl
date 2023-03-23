@@ -9,7 +9,7 @@ import com.mafei.spring.aop.advisor.MethodInvocation;
 import java.lang.reflect.Method;
 
 /**
- * @author mafei007
+ * @author Guy
  * @date 2022/7/7 23:23
  */
 public class AfterAdvice extends CommonAdvice implements Advice, MethodInterceptor {

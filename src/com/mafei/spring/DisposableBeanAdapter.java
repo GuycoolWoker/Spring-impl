@@ -5,7 +5,7 @@ import com.mafei.spring.interfaces.DisposableBean;
 /**
  * 适配器，适配以执行各种形式的销毁方法
  *
- * @author mafei007
+ * @author Guy
  * @date 2022/7/29 19:10
  */
 public class DisposableBeanAdapter implements DisposableBean {

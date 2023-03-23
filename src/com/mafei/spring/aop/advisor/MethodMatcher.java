@@ -5,7 +5,7 @@ import java.lang.reflect.Method;
 /**
  * Part of a Pointcut: Checks whether the target method is eligible for advice.
  *
- * @author mafei007
+ * @author Guy
  * @date 2022/7/7 22:08
  */
 public interface MethodMatcher {
